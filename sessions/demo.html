@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Spine Photobooth – Session</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 { margin-bottom: 10px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .photo {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,.08);
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    a {
+      display: block;
+      margin-top: 8px;
+      text-decoration: none;
+      background: #ff552e;
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h1>📸 Spine Photobooth</h1>
+<p>Silakan download foto kamu</p>
+
+<div class="grid">
+  <!-- contoh foto -->
+  <div class="photo">
+    <img src="https://via.placeholder.com/400x600?text=Photo+1" />
+    <a href="https://via.placeholder.com/400x600?text=Photo+1" download>Download</a>
+  </div>
+
+  <div class="photo">
+    <img src="https://via.placeholder.com/400x600?text=Photo+2" />
+    <a href="https://via.placeholder.com/400x600?text=Photo+2" download>Download</a>
+  </div>
+
+  <div class="photo">
+    <img src="https://via.placeholder.com/400x600?text=GIF" />
+    <a href="https://via.placeholder.com/400x600?text=GIF" download>Download GIF</a>
+  </div>
+</div>
+
+</body>
+</html>
